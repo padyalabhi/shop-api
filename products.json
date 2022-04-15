@@ -1,0 +1,63 @@
+[
+    {
+        "name" : "Tata Iodized Salt",
+        "categ" : "Grocery",
+        "type" : "Salt",
+        "price" : 20,
+        "seller" : "John",
+        "specs" : [
+            { "qauntity" : "1 Kg" },{ "Shelf Life" : "24 Months"}
+        ]
+    }
+    ,
+    {
+        "name" : "Madhur Sugar",
+        "categ" : "Grocery",
+        "type" : "White Sugar",
+        "price" : 50,
+        "seller" : "John",
+        "specs" : [
+            { "qauntity" : "1 Kg"} ,{ "Shelf Life" : "24 Months"}
+        ]
+    },
+    {
+        "name" : "Godrej Interior Slim 3",
+        "categ" : "Wardobes",
+        "type" : "Almirah",
+        "price" : 37000,
+        "seller" : "Adam",
+        "specs" : [
+            { "withMirror" : "yes" },{ "weight" : "105 Kg"}
+        ]
+    },
+    {
+        "name" : "Godrej Interior Platina",
+        "categ" : "Wardobes",
+        "type" : "Almirah",
+        "price" : 21000,
+        "seller" : "Peter",
+        "specs" : [
+            { "withMirror" : "no" },{ "weight" : "53 Kg"}
+        ]
+    },
+    {
+        "name" : "boAt BassHeads 900",
+        "categ" : "Electronics",
+        "type" : "Headphones",
+        "price" : 699,
+        "seller" : "Alex",
+        "specs" : [
+            { "color" : "black" } , {"weight" : "180 g"} , {"withMic" : "yes" }, {"connectivity" : "wired"}
+        ]
+    },
+    {
+        "name" : "boAt Rockerz 235",
+        "categ" : "Electronics",
+        "type" : "Headphones",
+        "price" : 1200,
+        "seller" : "Alex",
+        "specs" : [
+            { "color" : "blue" }, { "withMic" : "yes" },{ "connectivity" : "bluetooth" },{ "sound" : "HD Sound"}
+        ]
+    }
+]
