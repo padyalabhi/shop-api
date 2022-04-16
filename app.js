@@ -1,23 +1,24 @@
 require('dotenv').config()
+const notFound = require('./middleware/NotFound')
+const errorHandler = require('./middleware/ErrorHandler')
 
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
 
-const connectDB = require('./db/connect');
-const productsRouter = require('./routes/products');
+const connectDB = require('./db/connect')
+const productsRouter = require('./routes/products')
+
 
 //middleware
-app.use(express.json());
+app.use(express.json())
 
 //routes
-app.get('/', (req,res) => {
-    res.send('Hello there');
-})
-
 app.use('/api/v1/products', productsRouter);
 
+app.use(notFound)
+app.use(errorHandler)
 
-
+//server startup  with db connection
 const port = process.env.PORT || 3000
 const start = async () => {
     try {
