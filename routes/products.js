@@ -134,10 +134,9 @@ const {getAllProducts , deleteProduct , createProduct, getMyProducts, updateProd
  *          required: true
  *          type: "string"
  *        responses:
- *          "400":
- *            description: "Invalid ID/seller supplied"
  *          "404":
- *            description: "Pet not found"
+ *            description: "Invalid ID/seller supplied"
+ *          
  * 
  * definitions:
  *   Product:
